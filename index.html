@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <img src="images/user-circle.png" alt="Imagen de Usuario" class="imagen-usuario" ondblclick="dobleclick_avatar()">
+        </div>
+        <div class="card-body">
+            <h1 onmouseover="over()" onmouseout="out()" onclick="cambieNombre(this)">Jane Doe</h1>
+            <h3><img src="images/map-marker.png" alt="map-marker" class="icono" onclick="cambiaImagen(this)">Seattle</h3>
+            <p id="descripcion" ondblclick="elimine(this)"> 
+            Developer | Engineer | Problem Solver <br>
+            Master of shadows and the Internet!</p>
+            <p>
+                <a href="#" onclick="click_editar()">
+                    <img src="images/gear.png" alt="engrane" class="icono">edit profile</a>
+            </p>
+            <div>
+                <input type="text" name="nombre" id="nombre" onchange="cambioInput()">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.card {
+    border: 2px solid lightgray;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.card-header {
+    height: 80px;
+    background-color: rgb(3, 164, 192)
+}
+.card-body {
+    height: 180px;
+    padding-left: 20px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.imagen-usuario {
+    width: 70px;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    position: relative;
+    top: 45px;
+    left: 25px;
+}
+.icono {
+    width: 10px;
+    margin-right: 5px;
+}
+.purple {
+    color: purple;
+}
